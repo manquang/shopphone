@@ -62,6 +62,9 @@ switch ($act) {
                     case 'account':
                         require_once("login/my-account.php");
                         break;
+                    case 'bill':
+                        require_once("login/my-bill.php");
+                        break;
                     default:
                         require_once("login/login.php");
                         break;

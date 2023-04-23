@@ -70,7 +70,7 @@ class NguoiDungController
             'Email' =>    $_POST['Email'],
             'DiaChi'  =>   $_POST['DiaChi'],
             'TaiKhoan' => $_POST['TaiKhoan'],
-            'MatKhau' => md5($_POST['MatKhau']),
+            // 'MatKhau' => md5($_POST['MatKhau']),
             'MaQuyen' =>  $_POST['MaQuyen'],
             'TrangThai'  =>  $_POST['TrangThai'],
         );

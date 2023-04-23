@@ -37,7 +37,7 @@
            </div>
            <div class="form-group">
                <label for="">Mật Khẩu</label>
-               <input type="Password" class="form-control" id="" placeholder="" name="MatKhau" value="<?= $data['MatKhau']?>">
+               <input type="Password" class="form-control" id="" placeholder="" name="MatKhau" value="<?= $data['MatKhau']?>" readonly>
            </div>
            <div class="form-group">
                <label for="">Trạng Thái</label>
