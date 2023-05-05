@@ -10,7 +10,7 @@
 					<a href="?act=detail&id=<?=$value['MaSP']?>"><img src="public/<?=$value['HinhAnh1']?>" alt="Product Title" class="img-products"/></a>
 					<div class="actions-btn">
 						<a href="?act=cart&xuli=add&id=<?=$value['MaSP']?>"><i class="mdi mdi-cart"></i></a>
-						<a href="?act=cart&xuli=add&id=<?=$value['MaSP']?>" data-toggle="modal" ><i class="mdi mdi-eye"></i></a>		
+						<a href="?act=detail&id=<?=$value['MaSP']?>" data-toggle="modal" ><i class="mdi mdi-eye"></i></a>		
 					</div>
 				</div>
 				<div class="product-dsc">

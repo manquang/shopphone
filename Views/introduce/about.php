@@ -62,6 +62,27 @@
 			<div class="col-sm-12 col-md-4">
 				<div class="single-member">
 					<div class="member-img">
+					
+						<a href="#"><img src="https://upload.wikimedia.org/wikipedia/vi/thumb/5/5c/Chelsea_crest.svg/1200px-Chelsea_crest.svg.png" alt="Team Member" /></a>
+					</div>
+					<div class="share-member">
+						<div class="member-title">
+							<h4>Người lạc quan</h4>
+						</div>
+						<div class="member-btn">	
+							<a href="#"><i class="mdi mdi-facebook"></i></a>
+							<a href="#"><i class="mdi mdi-twitter"></i></a>
+							<a href="#"><i class="mdi mdi-google-plus"></i></a>
+							<a href="#"><i class="mdi mdi-dribbble"></i></a>
+							<a href="#"><i class="mdi mdi-rss"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- single member end -->
+			<div class="col-sm-12 col-md-4">
+				<div class="single-member">
+					<div class="member-img">
 						<a href="#"><img src="https://images.spiderum.com/sp-images/258c8de0909411eba9af21d8499af013.jpg" alt="Team Member" /></a>
 					</div>
 					<div class="share-member">
@@ -82,31 +103,12 @@
 			<div class="col-sm-12 col-md-4">
 				<div class="single-member">
 					<div class="member-img">
-						<a href="#"><img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.6435-9/59410599_835784836777869_5438895306592747520_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=7HvipW-iavcAX9BoJnS&_nc_ht=scontent.fhan17-1.fna&oh=00_AfCNcppszuabmFChJoI_6NhY0-nNFnGhXJbItLP9ZPLb8w&oe=646C0322" alt="Team Member" /></a>
+					
+						<a href="#"><img src="https://i.pinimg.com/564x/96/9c/b7/969cb79dddd43fe91489713213c63916.jpg" alt="Team Member" /></a>
 					</div>
 					<div class="share-member">
 						<div class="member-title">
-							<h4>1 đấm</h4>
-						</div>
-						<div class="member-btn">	
-							<a href="#"><i class="mdi mdi-facebook"></i></a>
-							<a href="#"><i class="mdi mdi-twitter"></i></a>
-							<a href="#"><i class="mdi mdi-google-plus"></i></a>
-							<a href="#"><i class="mdi mdi-dribbble"></i></a>
-							<a href="#"><i class="mdi mdi-rss"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- single member end -->
-			<div class="col-sm-12 col-md-4">
-				<div class="single-member">
-					<div class="member-img">
-						<a href="#"><img src="https://scontent.fhan17-1.fna.fbcdn.net/v/t1.18169-9/16406773_382860522070305_8110722607046999796_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=174925&_nc_ohc=8xkHNvKSwN4AX-ZHrKe&_nc_ht=scontent.fhan17-1.fna&oh=00_AfCq-SkEoFX1lZ8fOZPzmneqK1NTaSH_H-LBMfiHsSybJA&oe=646C04F3" alt="Team Member" /></a>
-					</div>
-					<div class="share-member">
-						<div class="member-title">
-							<h4>Papasuke</h4>
+							<h4></h4>
 						</div>
 						<div class="member-btn">	
 							<a href="#"><i class="mdi mdi-facebook"></i></a>

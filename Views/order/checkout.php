@@ -30,8 +30,10 @@
 							<input type="email" name="Email" placeholder="Địa chỉ Email.." required  value="<?=$_SESSION['login']['Email']?>" readonly/>
 							<input type="text" name="SDT" placeholder="Số điện thoại.." required value="<?=$_SESSION['login']['SDT']?>" readonly/>
 							<input type="text" name="DiaChi" placeholder="Địa chỉ giao hàng" required  value="<?=$diachi?>" readonly/>
+							<input type="hidden" name="tongtien" value="<?=($count + 15000)?>">
+							<input type="hidden" name="MaHD" value="<?=$_GET['MaHD'] ?>">
 							</br>
-							<button type="submit" name="momo" class="btn btn-danger btn-block">Thanh toán qua MOMO QRcode</button>
+							<button type="submit" name="momo" class="btn btn-danger btn-block">Thanh toán qua MOMO </button>
 						</form>
 					</div> <br>
 					<div id="paypal-button-container"></div>

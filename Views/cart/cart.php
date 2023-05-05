@@ -103,35 +103,40 @@
 									<p class="form-control-static"><?=number_format($count+15000)?> VNĐ</p>
 								</div>
 							</div>
+							<?php if (isset($_SESSION['isLogin'])) { ?>
 							<div class="form-group">
 								<label for="NguoiNhan" class="col-sm-4 control-label">Người nhận</label>
 								<div class="col-sm-8">
-									<input type="text" name="NguoiNhan" class="form-control" id="NguoiNhan" placeholder="Người nhận" required value="<?php echo $_SESSION['login']['Ho']." ".$_SESSION['login']['Ten']  ?>"/>
+									<input type="text" name="NguoiNhan" class="form-control" id="NguoiNhan" placeholder="Người nhận"  value="<?php echo $_SESSION['login']['Ho']." ".$_SESSION['login']['Ten']  ?>"/>
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="Email" class="col-sm-4 control-label">Địa chỉ Email</label>
 								<div class="col-sm-8">
-									<input type="email" name="Email" class="form-control" id="Email" placeholder="Địa chỉ Email.." required  value="<?=$_SESSION['login']['Email']?>"/>
+									<input type="email" name="Email" class="form-control" id="Email" placeholder="Địa chỉ Email.."   value="<?=$_SESSION['login']['Email']?>"/>
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="SDT" class="col-sm-4 control-label">Số điện thoại</label>
 								<div class="col-sm-8">
-									<input type="text" name="SDT" class="form-control" id="SDT" placeholder="Số điện thoại.." required pattern="[0-9]+" minlength="10"  value="<?=$_SESSION['login']['SDT']?>"/>
+									<input type="text" name="SDT" class="form-control" id="SDT" placeholder="Số điện thoại.."  pattern="[0-9]+" minlength="10"  value="<?=$_SESSION['login']['SDT']?>"/>
 								</div>
 							</div>
 							<div class="form-group">
 								<label for="DiaChi" class="col-sm-4 control-label">Địa chỉ giao hàng</label>
 								<div class="col-sm-8">
-									<input type="text" name="DiaChi" class="form-control" id="DiaChi" placeholder="Địa chỉ giao hàng" required  value="<?=$_SESSION['login']['DiaChi']?>"/>
+									<input type="text" name="DiaChi" class="form-control" id="DiaChi" placeholder="Địa chỉ giao hàng" value="<?=$_SESSION['login']['DiaChi']?>"/>
 								</div>
 							</div>
+							<?php } else { ?>
+								<br>
+								<?php } ?>
 							<div class="form-group">
 								<div class="submit-text coupon text-right">
 									<button type="submit">Đặt hàng</button>
 								</div>
 							</div>	
+							
 						</form>
 					</div>
 				</div>

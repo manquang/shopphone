@@ -29,7 +29,7 @@ $partnerCode = 'MOMOBKUN20180529';
 $accessKey = 'klm05TvNBzhg7h7j';
 $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
 $orderInfo = "Thanh toán qua MoMo";
-$amount = "10000";
+$amount = $_POST['tongtien'];
 $orderId = time() ."";
 $redirectUrl = "http://localhost/banhanghdt/index.php?act=checkout&xuli=execute&method=momo";
 $ipnUrl = "http://localhost/banhanghdt/index.php?act=checkout&xuli=execute&method=momo";

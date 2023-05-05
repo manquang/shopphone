@@ -82,7 +82,7 @@
     <!-- main js -->
     <script src="public/js/main.js"></script>
     <!-- paypal -->
-    <script src="https://www.paypal.com/sdk/js?client-id=ASsm-CBYxVepLxxkK81_V42c2s8lF_UAIlslnlD6gsv35BicfjlV6JEp-qmu2Fwo6K-oEw302RuXx5NU&currency=USD"></script>
+    <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
     <script>
       paypal.Buttons({
         // Order is created on the server and the order id is returned
@@ -100,8 +100,7 @@
         },
         // Finalize the transaction on the server after payer approval
         onApprove: function(data, actions) {
-            return actions.order.capture()
-            .then((orderData) => {
+            return actions.order.capture().then((orderData) => {
             // Successful capture! For dev/demo purposes:
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             const transaction = orderData.purchase_units[0].payments.captures[0];
@@ -110,6 +109,7 @@
 
           });
         }
+
       }).render('#paypal-button-container');
     </script>
 </body>

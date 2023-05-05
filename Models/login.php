@@ -47,6 +47,10 @@ class Login extends Model
             unset($_SESSION['isLogin']);
             unset($_SESSION['login']);
         }
+        if(isset($_SESSION['sanpham'])){
+            unset($_SESSION['sanpham']);
+            unset($_SESSION['sanpham']);
+        }
         header('location: ?act=home');
     }
     function check_account()

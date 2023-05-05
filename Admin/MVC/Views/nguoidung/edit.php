@@ -53,7 +53,6 @@
                <select id="" name="MaQuyen" class="form-control">
                     <option <?= ($data['MaQuyen'] == '1')?'selected':''?> value="1"> Khách hàng</option>
                     <option <?= ($data['MaQuyen'] == '2')?'selected':''?> value="2"> Quản trị viên</option>
-                    <option <?= ($data['MaQuyen'] == '3')?'selected':''?> value="3"> Nhân viên</option>
                </select>
            </div>
            </div>

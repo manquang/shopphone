@@ -63,6 +63,7 @@ class CheckoutController
     }
     function  save()
     {
+        if (isset($_SESSION['isLogin'])) {
         date_default_timezone_set('Asia/Ho_Chi_Minh');
         $ThoiGian =  date('Y-m-d H:i:s');
 
@@ -86,6 +87,9 @@ class CheckoutController
         );
         $this->checkout_model->save($data);
         unset($_SESSION['sanpham']);
+        } else {
+            header('location: ?act=taikhoan');
+        }
     }
     function order_complete($id)
     {
@@ -121,5 +125,6 @@ class CheckoutController
         );
         $this->checkout_model->execute($data);
 
+        header('location: ?act=taikhoan&xuli=bill');
     }
 }

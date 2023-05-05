@@ -20,7 +20,7 @@ switch ($act) {
                 require_once("order/checkout.php");
                 break;
             default:
-                require_once("order/order_complete.php");
+                require_once("shop/category.php");
                 break;
         }
         break;

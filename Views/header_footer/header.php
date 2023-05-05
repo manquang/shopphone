@@ -143,7 +143,11 @@
                         <div class="total">
                             <span>Tổng <strong>= <?=number_format($thanhtien)?> VNĐ</strong></span>
                         </div>
-                        <a class="goto" href="index.php?act=cart">Đến giỏ hàng</a>
+                        <?php if (isset($_SESSION['isLogin'])) { ?>
+                            <a class="goto" href="index.php?act=cart">Đến giỏ hàng</a>
+                        <?php } else { ?> 
+                            <a class="goto" href="index.php?act=taikhoan">Đến giỏ hàng</a> 
+                        <?php  } ?>
                     </div>
                 </div>
             </div>
