@@ -105,7 +105,7 @@
             console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
             const transaction = orderData.purchase_units[0].payments.captures[0];
             const paymentId = transaction.id;
-            window.location.replace('http://localhost/banhanghdt/index.php?act=checkout&xuli=execute&method=paypal&id=<?=$_GET['MaHD']?>&transId='+paymentId);
+            window.location.replace('http://localhost:8080/banhanghdt/index.php?act=checkout&xuli=execute&method=paypal&id=<?=$_GET['MaHD']?>&transId='+paymentId);
 
           });
         }

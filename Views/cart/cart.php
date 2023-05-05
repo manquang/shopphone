@@ -18,7 +18,7 @@
 <!-- cart content section start -->
 <section class="pages cart-page section-padding">
 	<div class="container">
-	<?php if (isset($_SESSION['sanpham'])) { ?>
+	<?php if (isset($_SESSION['sanpham']) && !empty($_SESSION['sanpham'])) { ?>
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="table-responsive padding60">

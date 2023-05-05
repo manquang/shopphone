@@ -31,8 +31,8 @@ $secretKey = 'at67qH6mk8w5Y1nAyMoYKMWACiEi2bsa';
 $orderInfo = "Thanh toán qua MoMo";
 $amount = $_POST['tongtien'];
 $orderId = time() ."";
-$redirectUrl = "http://localhost/banhanghdt/index.php?act=checkout&xuli=execute&method=momo";
-$ipnUrl = "http://localhost/banhanghdt/index.php?act=checkout&xuli=execute&method=momo";
+$redirectUrl = "http://localhost:8080/banhanghdt/index.php?act=checkout&xuli=execute&method=momo";
+$ipnUrl = "http://localhost:8080/banhanghdt/index.php?act=checkout&xuli=execute&method=momo";
 $extraData = "";
 
 

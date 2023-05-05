@@ -79,11 +79,9 @@ class model
         $query =  "SELECT giohang.*, TenSP, DonGia, HinhAnh1 from giohang 
                     join sanpham on giohang.MaSP = sanpham.MaSP 
                     where MaND = $MaND";
-        $result = $this->conn->query($query);
-        $list_cart = array();
-        while ($row = $result->fetch_assoc()) {
-            $list_cart[] = $row;
-        }
-        return $list_cart;
+
+        require("result.php");
+        
+        return $data;
     }
 }
