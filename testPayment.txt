@@ -3,7 +3,7 @@ sb-xphrb25372547@personal.example.com
 ^zXi-3cV
 Momo
 Số thẻ : 9704 0000 0000 0018
-Tên : NGUYEN VAN A	
+Tên : NGUYEN VAN A
 Hạn: 03/07
 sđt: 0919100100
 mã: OTP
