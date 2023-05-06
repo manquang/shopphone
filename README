@@ -1,0 +1,9 @@
+- Chạy bằng Xampp
+
+* Apache server chạy cổng 8080
+* MySQL chạy cổng 3307
+
+- Nếu config của bạn chạy cổng khác, sửa url (ghi thêm port trong url) trong 2 file
+
+* public/xacthucmomo.php
+* Views/index.php
